@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Data directories (will use external databases)
+data/
+temp_repos/
+
+# Git
+.git/
+.gitignore
+
+# Documentation
+*.md
+!README_HF.md
+
+# CI/CD
+.github/
+
+# Docker
+docker-compose.yml
+Dockerfile.dev
+
+# Lock files (we'll use requirements.txt)
+uv.lock
+pyproject.toml
+
+# Tests
+tests/
+pipeline_test.py
+verify_search.py
+setup_zed_queries.py
