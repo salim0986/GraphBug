@@ -4,6 +4,8 @@ A full-stack, service-oriented platform that automatically reviews GitHub Pull R
 
 [![Watch the video](https://github.com/salim0986/GraphBug/blob/65bc024e7caa6ca9f37637369ee3f8075d82d9a8/graphbug-thumbnail.png)](https://www.youtube.com/watch?v=Po2i08VHay8)
 
+---
+
 ## Project Overview
 
 GraphBug is an automated code intelligence system I built for engineering teams that want review-quality feedback on every PR without the review queue bottleneck. The platform installs as a GitHub App, listens for pull request events, parses the affected repository using tree-sitter, builds a bi-layer knowledge graph in Neo4j and a semantic search index in Qdrant, and then routes the PR through a LangGraph-orchestrated review pipeline that uses those graphs to ground Gemini's analysis in real codebase context — not just the diff in isolation.
