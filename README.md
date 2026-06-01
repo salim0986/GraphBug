@@ -2,6 +2,9 @@
 
 **GraphBug** is an AI-powered code intelligence and automated code review platform. It uses Graph RAG (Retrieval-Augmented Generation) technology to understand your codebase's architecture deeply, building a knowledge graph of relationships to provide context-aware reviews on GitHub Pull Requests.
 
+[![Watch the video](https://github.com/salim0986/GraphBug/blob/65bc024e7caa6ca9f37637369ee3f8075d82d9a8/graphbug-thumbnail.png)](https://www.youtube.com/watch?v=Po2i08VHay8)
+
+
 ---
 
 ## 🌟 Key Features
